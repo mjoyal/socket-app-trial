@@ -4,21 +4,24 @@
   "description": "chat app",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "serve": "^11.3.2",
+    "express": "^4.15.2",
     "socket.io": "^3.0.3"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
-  "engines": {
-    "node": "10.17.0",
-    "npm": "6.11.3"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjoyal/socket-app-trial.git"
+  },
+  "author": "mackenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjoyal/socket-app-trial/issues"
+  },
+  "homepage": "https://github.com/mjoyal/socket-app-trial#readme"
 }
+
+
